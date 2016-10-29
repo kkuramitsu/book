@@ -1,6 +1,7 @@
 /**
  * 課題3.8 ハノイの塔 解答例
  * (c) Kimio Kuramitsu, YNU, 2016.
+ * 本コードを参考にするときは、著作権表記(URL)を付記すること
  */
 
 #include"mymagic.h"
