@@ -4,8 +4,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#define M 9 
-#define N 5
+#define M 29 
+#define N 15
 #define MAX_GEN 1000
 
 int life[N + 2][M + 2] = {0};
@@ -66,6 +66,7 @@ int main()
     for(int t = 0; t <= MAX_GEN; t++) {
         dump();
         step();
+	printf("Hit [enter] key");
         getchar();
     }
     return 0;
