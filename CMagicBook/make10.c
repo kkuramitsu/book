@@ -1,3 +1,8 @@
+/＊＊
+ * 課題8.5 10パズルの解答例
+ * (c) Kimio Kuramitsu, YNU, 2016
+ */
+
 #include"mymagic.h"
 #include<setjmp.h>
 
@@ -145,6 +150,7 @@ void perm(int d[], int len, int loc)
 int main()
 {
 	int n = 0;
+	printf("Input 4-digits:");
 	scanf("%d", &n);
 	int d[4] = {
 		(n / 1000) % 10,
