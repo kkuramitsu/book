@@ -1,15 +1,14 @@
 /*
- * lifegame.c
+ * 課題3.9 ライフゲーム
+ * (c) Kimio Kuramitsu, YNU, 2016.
  */
 
-#include <stdio.h>
-#include <stdlib.h>
+#include "mymagic.h"
 #define M 29 
 #define N 15
 #define MAX_GEN 1000
 
 int life[N + 2][M + 2] = {0};
-
 
 void init()
 {
